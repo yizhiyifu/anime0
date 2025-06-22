@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>日本动画商业信息</title>
+  <link rel="stylesheet" href="anime0/styles.css" />
+</head>
+<body>
+  <h1 id="main-title">日本动画商业信息</h1>
+  
+  <!-- 移除 display: none; 样式 -->
+  <div id="years" class="year-tabs">
+    <button data-year="2024">2023</button>
+    <button data-year="2024">2024</button>
+    <button data-year="2025" class="active">2025</button>
+  </div>
+  
+  <!-- 移除 display: none; 样式 -->
+  <div id="seasons" class="season-tabs">
+    <button data-season="winter">冬季</button>
+    <button data-season="spring" class="active">春季</button>
+    <button data-season="summer">夏季</button>
+    <button data-season="autumn">秋季</button>
+  </div>
+
+  <div id="anime-list" class="anime-list"></div>
+
+  <div id="anime-detail" class="anime-detail" style="display: none;">
+    <button id="close-detail">返回</button>
+    <h2 id="detail-title"></h2>
+    <div id="detail-icon" class="detail-icon"></div>
+    <p id="detail-desc"></p >
+    <div id="detail-tags-container">
+      <span id="detail-tags"></span>
+    </div>
+    <div id="detail-info-container" class="detail-info"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
