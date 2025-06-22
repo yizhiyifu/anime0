@@ -19,7 +19,7 @@ const seasonAnimeFiles = {
   },
   "2025": {
     winter: [],
-    spring: ["黑执事 绿魔女篇", "前桥魔女"],
+    spring: ["黑执事 绿魔女篇"],
     summer: [],
     autumn: []
   }
